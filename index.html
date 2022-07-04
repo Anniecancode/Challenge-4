@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Code Quiz</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+        <div class="container">
+           <!--section for start button, timer and score record-->
+            <div class="start">
+                <div id="timer" class="right-corner"> Time : 0 </div>
+                <div id="highscore" class="left-corner">
+                    <a href="#finalPg">Highscore</a>
+                </div>
+                <div id="heading"> Coding Quiz Challenge </div>
+                <button id="start-btn" class="start-btn"> Start </button>
+            </div>
+            
+            <div id="question-container" class="hide">
+                <div id="list-question"></div>
+                <!--make answer choices-->
+                <div id="choice-buttons" class="button-style">
+                    <button class="choice"> A </button>
+                    <button class="choice"> B </button>
+                    <button class="choice"> C </button>
+                    <button class="choice"> D </button>
+                </div>                   
+            </div>
+            <!--end of quiz page-->
+            <div id="gameover" class="hide">
+                <h2>End of Quiz</h2>
+                <h3>Your score is:</h3>
+                <h3 id="score"></h3>
+                <form id="initial" class="initial">
+                    <label for="initial">Enter your initial : </label>
+                    <input type="text" id="Ini-inpit" name="Ini-inpit">
+                    <input id="submit-btn"type="submit" value="Submit">
+                </form>
+            </div>
+            <!--section indicates right or wrong of answers-->
+            <div id="display" class="bottom"></div>
+
+            <!--last page where user sees score record, and choice to start again-->
+            <div id="finalPg" class="hide">
+                <h2>High Score</h2>
+                <div class="scoreCont">
+                    <div id="scoreList" class="scoreLine"></div>
+                    <div class="buttonCont">
+                        <button id="startagain" class="startagain">Start Again</button>
+                        <button id="clearscore" class="clearscore">Clear Score</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="script.js"></script>  
+    </body>
+</html>
