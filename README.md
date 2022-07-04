@@ -29,6 +29,8 @@ User is free to clear the record by clicking "clear score" button, or access the
 
 
 ## URL of my page
-
+https://anniecancode.github.io/Challenge-4/
 
 ## Screenshot of my page
+![image](https://user-images.githubusercontent.com/99180884/177103059-e5366de3-bee3-4ba6-b82e-8522b9566aef.png)
+
